@@ -2,7 +2,16 @@
     width: 600px;
     display: flex;
     align-items: center;
-    background-image: url(./cats/paws2.png);
+    background-image: url(/catshop/cats/paws2.png);
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 30px 20px 30px 20px;
+}
+.main-form-userPage{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url(/catshop/cats/rain.jpg);
     flex-grow: 1;
     flex-direction: column;
     padding: 30px 20px 30px 20px;
@@ -104,7 +113,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    background-image: url(./cats/fur.jpg);
+    background-image: url(/catshop/cats/fur.jpg);
 }
 #eye-message{
     margin-top:0px;
@@ -119,10 +128,10 @@ body{
     align-content: center;
     height: 150px; 
     width: 250px;
-    border-image: url(./cats/bengal-pattern.jpg);
+    border-image: url(/catshop/cats/bengal-pattern.jpg);
     border:10px solid transparent;
  }
- #logo-container > img{
+ #logo-container > a > img{
     height: 150px; 
     width: 250px;
     border-radius: 20px;;
@@ -243,16 +252,21 @@ body{
 }
 .blank-column{
     flex-basis:200px;
-    background-image: url(./cats/green-print.jpg);
+    background-image: url(/catshop/cats/green-print.jpg);
     margin-right: 10px;
     margin-left: 50px;
-    
+ }
+ .blank-column-userPage{
+    flex-basis:200px;
+    background-image: url(/catshop/cats/purple-print.jpg);
+    margin-right: 10px;
+    margin-left: 50px; 
  }
 .cats{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-image: url(./cats/silver2.png);
+    background-image: url(/catshop/cats/silver2.png);
 }
 .cats-title{
     text-align: center;
@@ -339,7 +353,17 @@ h3{
     flex-basis:150px;
     justify-content:flex-start;
     text-align: center;
-    background-image: url(./cats/green-print.jpg);
+    background-image: url(/catshop/cats/green-print.jpg);
+    margin-left:10px;
+    margin-right: 50px;
+}
+.logo-link-main-userPage{
+    display: flex;
+    flex-direction: column;
+    flex-basis:150px;
+    justify-content:flex-start;
+    text-align: center;
+    background-image: url(/catshop/cats/purple-print.jpg);
     margin-left:10px;
     margin-right: 50px;
 }
@@ -359,7 +383,7 @@ h3{
     font-size: 22px; 
 }
 .vertical-menu a.active {
-    background-image: url(./cats/leopard-pattern.jpg);
+    background-image: url(/catshop/cats/leopard-pattern.jpg);
     color: rgb(255, 248, 237);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 35px;
@@ -369,7 +393,7 @@ h3{
     opacity: 0.5;
 }
 #bengal-link{
-    background-image: url(./cats/bengal-pattern.jpg);
+    background-image: url(/catshop/cats/bengal-pattern.jpg);
     margin-top:5px;
 
 }
@@ -377,21 +401,21 @@ h3{
     opacity: 0.5;
 }
 #tabby-link{
-    background-image: url(./cats/tabby-pattern.png);
+    background-image: url(/catshop/cats/tabby-pattern.png);
     margin-top:5px;
 }
 #tabby-link:hover{
     opacity:0.5;
 }
 #siberian-link{
-    background-image: url(./cats/siberian-pattern.jpg);
+    background-image: url(/catshop/cats/siberian-pattern.jpg);
     margin-top:5px;
 }
 #siberian-link:hover{
     opacity: 0.5;
 }
 #black-white-link{
-    background-image: url(./cats/black-white-pattern.jpg);
+    background-image: url(/catshop/cats/black-white-pattern.jpg);
     margin-top:5px;
 }
 #black-white-link:hover{
@@ -410,7 +434,7 @@ h3{
     justify-content: space-between;
     flex-basis: 115px;
     margin: 10px;
-    background-image: url(./cats/fur.jpg);
+    background-image: url(/catshop/cats/fur.jpg);
 }
 .footer-left{
     display: flex;
@@ -474,5 +498,30 @@ h3{
     font-size:22px;
 }
 .container > h1{
+    text-align: center;
+}
+.userPage-div{
+    align-items: center;
+    text-align: center;
+}
+.userPage-catName{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.purchase-date{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    margin-bottom: 30px;
+}
+#adoptedCatsTitle{
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.alert-email{
+    color: red;
+    font-size: 20px;
     text-align: center;
 }

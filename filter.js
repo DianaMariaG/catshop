@@ -1,10 +1,9 @@
-                                          //FILTER BY BREED
 //Filter cats
-filterSelection1("all1")
+filterSelection1('all1')
 function filterSelection1(c) {
   var x, i;
   x = document.getElementsByClassName("filterDiv1");
-  if (c == "all1") c = "";
+  if (c == 'all1') c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass1(x[i], "show");

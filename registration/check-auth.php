@@ -5,7 +5,7 @@
         echo "Welcome: ".$_COOKIE[$cookieName];
     } else {
         //Redirect to a different page
-        header("Location: /project/login.php");
+        header("Location: /catshop/login.php");
         echo "Cookie is not set";
     }
 ?>

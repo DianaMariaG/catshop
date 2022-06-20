@@ -22,7 +22,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    background-image: url(./cats/fur.jpg);
+    background-image: url(/catshop/cats/fur.jpg);
 }
 #eye-message{
     margin-top:0px;
@@ -37,7 +37,7 @@ body{
     align-content: center;
     height: 150px; 
     width: 250px;
-    border-image: url(./cats/bengal-pattern.jpg);
+    border-image: url(/catshop/cats/bengal-pattern.jpg);
     border:10px solid transparent;
  }
  #logo-container > a > img{
@@ -97,7 +97,7 @@ body{
     height: 70px;
     font-style: italic;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(./cats/paws2.png);
+    background-image: url(/catshop/cats/paws2.png);
     margin-bottom: 30px;
     margin-right:50px;
     margin-left:50px;
@@ -129,45 +129,7 @@ body{
     opacity: 0.5;
 }
 
-.header3{
-    display: flex;
-    flex-direction: row;
-    padding: 10px 0px 30px 0px;
-    margin-top:30px;
-    justify-content:flex-start; 
-    gap:20px;
-    margin-left:60px;
-    margin-bottom: -40px;
-    height: 40px;
-    font-style: italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.btn{
-    width: 140px;
-    height: 50px;
-    margin-bottom: 10px;
-    border:unset;
-    border-radius: 20px;
-    color:rgb(1, 1, 0);
-    background-image: url(./cats/giraffe.jpg);
-    padding: 4px 4px 4px 4px;
-    align-self: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: bold; 
-}
-.btn:hover{
-    box-shadow:0px 4px 4px 4px rgb(216, 133, 8);
-}
-/* Add a dark background to the active button */
-.btn.active {
-    background-color: #666;
-    color: rgb(9, 3, 3);
-    opacity: 0.5;
-}
-.btn.active:hover{
-    box-shadow: none;
-}
+
 
 .main-container{
     display: flex;
@@ -189,7 +151,7 @@ body{
 }
 .blank-column{
     flex-basis:200px;
-    background-image: url(./cats/side.png);
+    background-image: url(/catshop/cats/side.png);
     margin-right: 10px;
     margin-left: 50px;
     
@@ -198,19 +160,19 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-image: url(./cats/silver2.png);
+    background-image: url(/catshop/cats/silver2.png);
 }
 .cats-title{
     text-align: center;
     margin-bottom: -20px;
 }
-.display-cats{
+.tiger-cats{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 50px 20px 0px 20px;
 }
-.display-cats > div{
+.tiger-cats > div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -218,7 +180,7 @@ body{
 
 }
 
-/* .yellow-cats{
+.yellow-cats{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -250,7 +212,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 h3{
     margin-bottom: 0px;
     font-size: x-large;
@@ -269,18 +231,12 @@ h3{
     color:rgb(255, 255, 255);
     align-self: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(./cats/leopard-pattern.jpg);
+    background-image: url(/catshop/cats/leopard-pattern.jpg);
     font-size: 25px;
     font-weight: bold;
 }
 .adopt-button:hover{
     box-shadow:0px 0px 4px 4px rgb(215, 136, 9);
-}
-.adopted-cat{
-    margin-top: 10px;
-    margin-bottom: 45px;
-    width: 130px;
-    height: 50px;
 }
 .img{
     height: 200px;
@@ -293,7 +249,7 @@ h3{
     flex-basis:150px;
     justify-content:flex-start;
     text-align: center;
-    background-image: url(./cats/side.png);
+    background-image: url(/catshop/cats/side.png);
     margin-left:10px;
     margin-right: 50px;
 }
@@ -313,7 +269,7 @@ h3{
     font-size: 22px; 
 }
 .vertical-menu a.active {
-    background-image: url(./cats/leopard-pattern.jpg);
+    background-image: url(/catshop/cats/leopard-pattern.jpg);
     color: rgb(255, 248, 237);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 35px;
@@ -323,7 +279,7 @@ h3{
     opacity: 0.5;
 }
 #bengal-link{
-    background-image: url(./cats/bengal-pattern.jpg);
+    background-image: url(/catshop/cats/bengal-pattern.jpg);
     margin-top:5px;
 
 }
@@ -331,21 +287,21 @@ h3{
     opacity: 0.5;
 }
 #tabby-link{
-    background-image: url(./cats/tabby-pattern.png);
+    background-image: url(/catshop/cats/tabby-pattern.png);
     margin-top:5px;
 }
 #tabby-link:hover{
     opacity:0.5;
 }
 #siberian-link{
-    background-image: url(./cats/siberian-pattern.jpg);
+    background-image: url(/catshop/cats/siberian-pattern.jpg);
     margin-top:5px;
 }
 #siberian-link:hover{
     opacity: 0.5;
 }
 #black-white-link{
-    background-image: url(./cats/black-white-pattern.jpg);
+    background-image: url(/catshop/cats/black-white-pattern.jpg);
     margin-top:5px;
 }
 #black-white-link:hover{
@@ -364,7 +320,7 @@ h3{
     justify-content: space-between;
     flex-basis: 115px;
     margin: 10px;
-    background-image: url(./cats/fur.jpg);
+    background-image: url(/catshop/cats/fur.jpg);
 }
 .footer-left{
     display: flex;
@@ -431,10 +387,12 @@ h3{
     text-align: center;
 }
 
-.filterDiv1{
+.filterDiv1,
+.filterDiv2 {
     /* Hidden by default */
     display: none; 
-}
+    
+  }
   
   /* The "show" class is added to the filtered elements */
   .show {
@@ -443,4 +401,22 @@ h3{
     justify-content: space-around;
   }
   
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
   
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }

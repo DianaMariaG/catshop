@@ -3,14 +3,16 @@
 <head>
     <title>My Website Homepage</title>
     <meta charset="utf8">
-    <link href="./project.css" rel="stylesheet">
+    <link href="./additional_pages.css" rel="stylesheet">
 </head>
 <body>
     <div class="body-container">
         <header class="header-container">
             <div class="header1">
                 <div id="logo-container">
-                    <img src="./cats/cat-eye.png" alt="logo image" />
+                    <a href="../index.php">
+                        <img src="../cats/cat-eye.png" alt="logo image" />
+                    </a>
                     <h3 id="eye-message">For the cats we love...</h3>
                 </div>
 
@@ -19,49 +21,49 @@
                 </div>
 
                 <div id="button-container">
-                    <img id="green-cat" src="./cats/green-cat.jpg"/>
-                    <button id="login-main-page" class="primary-button">Login</button>
+                    <img id="green-cat" src="/catshop/cats/green-cat.jpg"/>
+                    <button id="login-main-page" class="primary-button">Log In</button>
                     <button id="signup-main-page" class="primary-button">Sign Up</button>
-                    <button id="logout-main-page" class="primary-button">Logout</button>
+                    <button id="logout-main-page" class="primary-button">Log Out</button>
                 </div>
             </div>
 
             <div class="header2">
                 <nav>
-                    <a href="https://www.google.com" target="_blank">
-                        <img id="donate-cat" src="./cats/donate-cat.png" height="80"/>
+                    <a href="https://www.cats.org.uk/donate" target="_blank">
+                        <img id="donate-cat" src="/catshop/cats/donate-cat.png" height="80"/>
                     </a>
                     <p>Donate for cats!</p>
                 </nav>
                 <nav>
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img id="volunteer-cat" src="./cats/volunteer-cat.jpg" height="80"/>
+                    <a href="https://projectworldimpact.com/" target="_blank">
+                        <img id="volunteer-cat" src="/catshop/cats/volunteer-cat.jpg" height="80"/>
                     </a>
                     <p>Be a volunteer!</p>
                 </nav>
                 <nav>
-                    <a href="https://www.scribd.com">
-                        <img id="cat-school" src="./cats/cat-school.jpg" height="80"/>
+                    <a href="https://www.catseducation.com/" target="_blank">
+                        <img id="cat-school" src="/catshop/cats/cat-school.jpg" height="80"/>
                     </a>
                     <p>Learn and teach!</p>
                 </nav>
                 <nav>
-                    <a href="https://www.scribd.com">
-                        <img id="cat-events" src="./cats/cat-events.jpg" height="80"/>
+                    <a href="https://www.cattipper.com/" target="_blank">
+                        <img id="cat-events" src="/catshop/cats/cat-events.jpg" height="80"/>
                     </a>
                     <p>Social and charitable events</p>
                 </nav>
                 <nav>
-                    <a href="https://www.scribd.com">
-                        <img id="cat-shop" src="./cats/cat-shop.jpg" height="80"/>
+                    <a href="https://www.zooplus.ro/" target="_blank">
+                        <img id="cat-shop" src="/catshop/cats/cat-shop.jpg" height="80"/>
                     </a>
                     <p>Cherish your cat!</p>
                 </nav>
-                <nav>
-                    <a href="https://www.scribd.com">
-                        <img id="adopted-cat" src="./cats/adopted-cat.jpg" height="80"/>
+                <nav id="user-page-link">
+                    <a href="../userPage.php">
+                        <img id="adopted-cat" src="../cats/adopted-cat.jpg" height="80"/>
                     </a>
-                    <p>Adopt our cats!</p>
+                    <p>My Adopted Cats</p>
                 </nav>
             </div>
         </header>
@@ -85,7 +87,7 @@
                         Many people believe that red cats have warm personalities that match their coat color, thinking
                         they tend to be mellow, loving cats. However, cats are individuals and you may find yours to 
                         be a bossy alpha cat or one with a fiery, hot temper. Cat personalities are not as typically 
-                        linked to breeds as are those of dogs. They haven't been bred for skills and temperaments as 
+                        linked to breeds as are those of dogs. They haven&sbquo;t been bred for skills and temperaments as 
                         dogs have. But if you are looking for a specific personality, start with researching what is 
                         usual for different cat breeds.  
                     </p>
@@ -117,7 +119,7 @@
                 </div>    
                 <div class="logo-link-main">
                     <div class="vertical-menu">
-                        <a href="./index.php" class="active">Cat Breeds</a>
+                        <a href="/catshop/index.php" class="active">Cat Breeds</a>
                         <a href="./bengal.php" id="bengal-link" target="_blank">Bengal Cats</a>
                         <a href="./tabby.php" id="tabby-link" target="_blank"rge>Red Tabby Cats</a>
                         <a href="./siberian.php" id="siberian-link" target="_blank">Siberian Cats</a>
@@ -130,10 +132,10 @@
            <footer class="footer-container">
                 <div class="footer-left">
                     <div class="footer-logo">
-                        <img id="purple-cat" src="./cats/purple-cat.jpg"alt="purple cat"/>
+                        <img id="purple-cat" src="/catshop/cats/purple-cat.jpg"alt="purple cat"/>
                     </div>
                     <nav class="footer-link">
-                        <a href="https://www.facebook.com">Follow us on Facebook</a>
+                        <a href="https://www.facebook.com" target="_blank">Follow us on Facebook</a>
                     </nav>
                 </div>
                 <div class="footer-right">
@@ -144,6 +146,6 @@
             
        </div>
     </body>
-    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./additional_pages.js"></script>
     
 </html>
