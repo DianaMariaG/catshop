@@ -116,7 +116,7 @@ if (!$conn) {
                                     break;
                             }
                             $adoptButton = "<div class='adopted-cat'></div>";
-                            if ($cat->status == 'AVAILABLE') {
+                            if ($cat->status == 'AVAILABLE' && $_COOKIE['authenticated']) {
                                 $adoptButton = "<button onclick=adoptCat('$cat->id') type='button' class='adopt-button'>Adopt Me!</button>"; 
                             }
                             if($count % 3 == 1) {
